@@ -1,0 +1,20 @@
+port: 8081
+database: 
+  host: localhost
+  port: 3306
+  name: arts
+  username: root
+  password: 123456
+
+  max-open-conns: 100
+  max-idle-conns: 20
+
+casbin:
+  path: D:\blog_2022\blog-server\config\rbac.conf
+
+jwt:
+  secret: 123456789
+  expire: 24
+
+logger:
+  level: debug
